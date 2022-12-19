@@ -18,7 +18,7 @@ Biosample ID: SAME123985
 
 Cell line Source: HG00330 at Coriell
 
-Variant Annotation Tool Used: Wannovar
+Variant Annotation Tool Used: wANNOVAR
 
 Sample identifier = Exome Project
 
