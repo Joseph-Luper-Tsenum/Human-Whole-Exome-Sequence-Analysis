@@ -38,44 +38,6 @@ Exonic variant list from the wANNOVAR output after filtration, the last filter s
 
 Gene list from the wANNOVAR output, input into Phenolyzer = (Total: 3655)
 
-## Summary table of variants
-
-![image](https://user-images.githubusercontent.com/58364462/208487590-e8c45976-71e6-4577-a5ca-b68b0afa1ee8.png)
-
-## Table of potentially damaging or pathogenic nonsynonymous variants
-
-![image](https://user-images.githubusercontent.com/58364462/208488367-52eb4d38-a244-4a6f-9250-e23e2dac855a.png)
-
-## Allele Frequency in the Population
-
-![image](https://user-images.githubusercontent.com/58364462/208488674-b3a50a59-2812-413f-8efe-f9725f1db65a.png)
-
-## Popmax Allele Frequency
-
-![image](https://user-images.githubusercontent.com/58364462/208488898-f9ed4010-4873-4a03-9c9a-1606f5886b7b.png)
-
-## PAthogenic Variant Information
-
-![image](https://user-images.githubusercontent.com/58364462/208489185-25ff4e2a-b427-4104-bde9-9d981a1a77e2.png)
-
-![image](https://user-images.githubusercontent.com/58364462/208489223-30d7dbd8-09e6-4a65-ba82-08f095ab9c95.png)
-Gene and Protein Name, and variant ID (rs number): Gene: AGRN; Name: AGRN Protein; Variant ID: 1-978577-G-C
-Variant genotype (DNA change and amino acid change): AGRN:NM_198576:exon1:c.G127T:p.A43S nonsynonymous
-Variant frequency in the overall human population: 0.0002642
-Population with the highest frequency of the variant: East Asia with allele frequency of 0.002836
-
-## Structural Model of AGRN protein
-
-AlphaFold Protein Structure Database was used in predicting the structure of AGRN protein. The 3D structure model of the protein is shown below
-
-![image](https://user-images.githubusercontent.com/58364462/208490312-2a8ebb76-7088-4c08-ac74-b487c06fccf9.png)
-
-## Visualization of altered amino acid on structural model
-
-![image](https://user-images.githubusercontent.com/58364462/208490559-08dc520f-37fa-4bfc-addb-9ca5501b81e0.png)
-There is low confidence interval around the site of the altered amino acid shown in yellow, hence the model is not reliable. This means that the change around the site of the variant amino acid will not affect the function of this protein.
-
-
 ## Commands used: 
 
 (i) Sequence alignment with bwa mem
@@ -117,9 +79,44 @@ There is low confidence interval around the site of the altered amino acid shown
 
 ```bcftools filter -O z -o ERR031897.filtered.vcf.gz -s LOWQUAL -i'%QUAL>10' ERR031897.vcf.gz```
 
-## Link to wANNOAR output 
 
-https://u27309186.ct.sendgrid.net/ls/click?upn=umGjyFNc-2F7SdYZClx7o5vANo-2B-2B-2B6TfBp4gzxHGDQAoARn8yJ78smd-2FJ0Aj-2FZkzaxJlnvREf-2FybNhmhmX5ToVaG-2BPgzCTukRkEqtBE6lwuL0-3Dg8S7_GBtR8zpR-2BxraP6R65fiRg55Fu05gPqkKgUjrYLN-2F6qCoThB-2Bk4xCaqUun0PIuyJUn0MwXP-2FVXlUPOc1V2Px1rvikIVYEdkCOgoY4488GmiAQ3RvLJqVkDnY-2FuP7E8M0mQaOA575Lw-2FWvokd3SV44td5oHdjnmFJHK8Z7btfA-2Fbmia026-2F0prejgFEM56-2FNHPQ7uIM2DctlBKlhW62-2BBXeQ-3D-3D
+## Summary table of variants
+
+![TODAY2](https://user-images.githubusercontent.com/58364462/208492125-0d3fd057-4595-41eb-8ac5-56eed60bd1b3.png)
+
+## Table of potentially damaging or pathogenic nonsynonymous variants
+
+![TODAY1](https://user-images.githubusercontent.com/58364462/208492017-750016b5-adf1-4a82-a2d4-b4946185f22b.png)
+
+## Allele Frequency in the Population
+
+![TODAY3](https://user-images.githubusercontent.com/58364462/208492339-c03532e5-bf25-4b51-a16b-ca1fb9facddf.png)
+
+
+## Popmax Allele Frequency
+
+![TODAY4](https://user-images.githubusercontent.com/58364462/208492452-24034b8d-35eb-45ba-8e64-df9ec897ea7c.png)
+
+## Pathogenic Variant Information
+
+![TODAY5](https://user-images.githubusercontent.com/58364462/208492593-bfc0e0a4-fb17-4507-8f86-cf5657a353d3.png)
+
+![TODAY6](https://user-images.githubusercontent.com/58364462/208492714-26709794-a215-4ede-954e-9d93f23b4c6c.png)
+Gene and Protein Name, and variant ID (rs number): Gene: AGRN; Name: AGRN Protein; Variant ID: 1-978577-G-C
+Variant genotype (DNA change and amino acid change): AGRN:NM_198576:exon1:c.G127T:p.A43S nonsynonymous
+Variant frequency in the overall human population: 0.0002642
+Population with the highest frequency of the variant: East Asia with allele frequency of 0.002836
+
+## Structural Model of AGRN protein
+
+AlphaFold Protein Structure Database was used in predicting the structure of AGRN protein. The 3D structure model of the protein is shown below
+
+![TODAY7](https://user-images.githubusercontent.com/58364462/208492843-7e561dac-59a1-466f-8028-8ab015ce8757.png)
+
+## Visualization of altered amino acid on structural model
+
+![TODAY8](https://user-images.githubusercontent.com/58364462/208492942-9f4d8128-c2db-49da-915b-f153c5678078.png)
+There is low confidence interval around the site of the altered amino acid shown in yellow, hence the model is not reliable. This means that the change around the site of the variant amino acid will not affect the function of this protein.
 
 ## References
 
